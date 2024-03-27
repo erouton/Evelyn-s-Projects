@@ -1,3 +1,11 @@
+###########################################################
+Evelyn Routon -
+The following file comes from my CSC 325 professor at Missouri State University, Mukulika Ghosh.
+Within this project she provides the following files in their entirety: Dependencies, Makefile, test_algorithm, unit_test
+Additionally, she provides the skeleton code (basic outline, with blanks left to fill out implementation for certain functions) for the following files: timing, sort
+I'd like to add that with the current version of sort.h, my professor provides the following feedback, "Inefficient version will call recursion twice : once in merge sort and other in merge n/k. Recursion need to be only in one place. Need not use recursion if it is within O(n log_k n) bounds of time and no extra memory than O(n)".
+###########################################################
+
 This assignment is on C++.
 
 Compilation and Execution
@@ -31,11 +39,4 @@ test_algorithm.cpp - Contains the unit testing algorithms to test your implement
 unit_test.h - Contains the basic structure to perform any unit testing on any program based on protocol of setup, testing, and teardown. DO NOT modify this file. 
 
 timing.cpp - Contains the code to extract execution time for various input types and input sizes. Examples of random sequences sorting are provided as example function. You need to create similar function for each sorting algorithm on sorted sequence and reverse sorted sequence as input. Call the respective function in main() with varied input sizes to get the detailed execution time report. Do not modify any function. You can add your own functions and call them respectively in main.
-
-
-Evelyn--
-test_alogrithm.cpp = nothing to do unless need to add additional tests to see how program running
-sort.h = modify functions, implement sorting algorithms
-unit_test.h = DON'T MODIFY THIS
-timing.cpp = Don't modify, add functions
 
