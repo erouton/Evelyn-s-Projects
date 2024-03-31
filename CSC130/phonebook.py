@@ -1,8 +1,8 @@
 '''
 Manage names and phone numbers
 '''
-pb = {"Braeg" : "111-1111", "Hailey" : "222-2222", "CousHailey" : "333-3333",
-      "Marcus" : "444-4444", "Brian" : "555-5555"}
+pb = {"Lily" : "111-1111", "Corey" : "222-2222", "Sally" : "333-3333",
+      "Sasha" : "444-4444", "Hank" : "555-5555"}
 
 def print_book(pb):
     key_list = list(pb.keys())
