@@ -42,8 +42,3 @@ Topics include: processes, threads, CPU scheduling, mutual exclusion,
 process synchronization, deadlocks, memory management, file systems, 
 i/o systems, disk management, distributed systems, security and protection."
 
-CSC365 - Internet Programming SP24
-"An introduction to paradigms and languages used in internet and World 
-Wide Web programming. These include modern tools for client-side and 
-server-side programming and dynamic Web page generation. Advanced topics, 
-such as security and XML, will be covered as time allows."
