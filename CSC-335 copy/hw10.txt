@@ -1,0 +1,18 @@
+[100 points] Suppose you are given a relation emp(empid, dept, salary) and wish to maintain a materialized view deptsalary(dept, totalsalary) 
+which stores the total salary for all employees of each department. Suppose the system does not support materialized views but supports triggers. 
+Write an SQL trigger on insert on emp to keep the relation deptsalary up to date. Do not worry about deletes or updates. Assume that there is 
+already a tuple for each department in deptsalary so you do not need to worry about new departments.
+
+Please note that, this question asks to use SQL syntax to create a trigger. Do not use Oracle's or PostgrSQL's syntax or that of any specific DBMS for this question.  
+
+
+
+
+create trigger total_salary after insert on emp
+referencing new row as nrow
+for each row
+begin 
+    UPDATE deptsalary
+    SET totalsalary = totalsalary + nrow.salary
+    WHERE dept = nrow.dept;
+end;
